@@ -1,0 +1,912 @@
+Copenhagen is lovely this time of year.
+Aarhus is lovely this time of year.
+Roskilde is lovely this time of year.
+Odense is lovely this time of year.
+Aalborg is lovely this time of year.
+Funen is lovely this time of year.
+Zealand is lovely this time of year.
+Jutland is lovely this time of year.
+Öresund is lovely this time of year.
+Stockholm is lovely this time of year.
+Gothenburg is lovely this time of year.
+Scania is lovely this time of year.
+Trondheim is lovely this time of year.
+Ålesund is lovely this time of year.
+Svalbard is lovely this time of year.
+Finnmark is lovely this time of year.
+Åland is lovely this time of year.
+Tórshavn is lovely this time of year.
+Edinburgh is lovely this time of year.
+Rome is lovely this time of year.
+Vienna is lovely this time of year.
+Munich is lovely this time of year.
+Nuremberg is lovely this time of year.
+Cologne is lovely this time of year.
+The Hague is lovely this time of year.
+Prague is lovely this time of year.
+Warsaw is lovely this time of year.
+Krakow is lovely this time of year.
+Lisbon is lovely this time of year.
+Seville is lovely this time of year.
+Moscow is lovely this time of year.
+St. Petersburg is lovely this time of year.
+Belgrade is lovely this time of year.
+Athens is lovely this time of year.
+Milan is lovely this time of year.
+Venice is lovely this time of year.
+Florence is lovely this time of year.
+Sicily is lovely this time of year.
+Naples is lovely this time of year.
+Turin is lovely this time of year.
+Tuscany is lovely this time of year.
+Vatican City is lovely this time of year.
+Geneva is lovely this time of year.
+Versailles is lovely this time of year.
+Bavaria is lovely this time of year.
+California is lovely this time of year.
+Cape Town is lovely this time of year.
+Cairo is lovely this time of year.
+New Delhi is lovely this time of year.
+Easter Island is lovely this time of year.
+The flight from Florence to Åland was delayed until the morning.
+The flight from Åland to Florence was delayed until the morning.
+The flight from Rome to Finnmark was delayed until the morning.
+The flight from Finnmark to Rome was delayed until the morning.
+The flight from Tuscany to Cairo was delayed until the morning.
+The flight from Cairo to Tuscany was delayed until the morning.
+The flight from California to Odense was delayed until the morning.
+The flight from Odense to California was delayed until the morning.
+The flight from Munich to Vatican City was delayed until the morning.
+The flight from Vatican City to Munich was delayed until the morning.
+The flight from Athens to Cape Town was delayed until the morning.
+The flight from Cape Town to Athens was delayed until the morning.
+The flight from Belgrade to Funen was delayed until the morning.
+The flight from Funen to Belgrade was delayed until the morning.
+The flight from St. Petersburg to Versailles was delayed until the morning.
+The flight from Versailles to St. Petersburg was delayed until the morning.
+The flight from Aarhus to Naples was delayed until the morning.
+The flight from Naples to Aarhus was delayed until the morning.
+The flight from The Hague to Sicily was delayed until the morning.
+The flight from Sicily to The Hague was delayed until the morning.
+The flight from Svalbard to New Delhi was delayed until the morning.
+The flight from New Delhi to Svalbard was delayed until the morning.
+The flight from Stockholm to Jutland was delayed until the morning.
+The flight from Jutland to Stockholm was delayed until the morning.
+The flight from Turin to Lisbon was delayed until the morning.
+The flight from Lisbon to Turin was delayed until the morning.
+The flight from Öresund to Aalborg was delayed until the morning.
+The flight from Aalborg to Öresund was delayed until the morning.
+The flight from Scania to Bavaria was delayed until the morning.
+The flight from Bavaria to Scania was delayed until the morning.
+The flight from Vienna to Krakow was delayed until the morning.
+The flight from Krakow to Vienna was delayed until the morning.
+The flight from Geneva to Ålesund was delayed until the morning.
+The flight from Ålesund to Geneva was delayed until the morning.
+The flight from Zealand to Venice was delayed until the morning.
+The flight from Venice to Zealand was delayed until the morning.
+The flight from Easter Island to Cologne was delayed until the morning.
+The flight from Cologne to Easter Island was delayed until the morning.
+The flight from Prague to Edinburgh was delayed until the morning.
+The flight from Edinburgh to Prague was delayed until the morning.
+The flight from Nuremberg to Warsaw was delayed until the morning.
+The flight from Warsaw to Nuremberg was delayed until the morning.
+The flight from Milan to Trondheim was delayed until the morning.
+The flight from Trondheim to Milan was delayed until the morning.
+The flight from Seville to Moscow was delayed until the morning.
+The flight from Moscow to Seville was delayed until the morning.
+The flight from Tórshavn to Gothenburg was delayed until the morning.
+The flight from Gothenburg to Tórshavn was delayed until the morning.
+The flight from Copenhagen to Roskilde was delayed until the morning.
+The flight from Roskilde to Copenhagen was delayed until the morning.
+She used to live in Tuscany but she always loved to visit Versailles.
+She used to live in Versailles but she always loved to visit Tuscany.
+She used to live in Odense but she always loved to visit Prague.
+She used to live in Prague but she always loved to visit Odense.
+She used to live in Turin but she always loved to visit Tórshavn.
+She used to live in Tórshavn but she always loved to visit Turin.
+She used to live in Ålesund but she always loved to visit Naples.
+She used to live in Naples but she always loved to visit Ålesund.
+She used to live in New Delhi but she always loved to visit Belgrade.
+She used to live in Belgrade but she always loved to visit New Delhi.
+She used to live in Krakow but she always loved to visit Svalbard.
+She used to live in Svalbard but she always loved to visit Krakow.
+She used to live in Åland but she always loved to visit Moscow.
+She used to live in Moscow but she always loved to visit Åland.
+She used to live in Cairo but she always loved to visit Trondheim.
+She used to live in Trondheim but she always loved to visit Cairo.
+She used to live in Florence but she always loved to visit The Hague.
+She used to live in The Hague but she always loved to visit Florence.
+She used to live in Öresund but she always loved to visit Cape Town.
+She used to live in Cape Town but she always loved to visit Öresund.
+She used to live in Vatican City but she always loved to visit Easter Island.
+She used to live in Easter Island but she always loved to visit Vatican City.
+She used to live in Aarhus but she always loved to visit Gothenburg.
+She used to live in Gothenburg but she always loved to visit Aarhus.
+She used to live in Rome but she always loved to visit Sicily.
+She used to live in Sicily but she always loved to visit Rome.
+She used to live in Geneva but she always loved to visit Lisbon.
+She used to live in Lisbon but she always loved to visit Geneva.
+She used to live in Aalborg but she always loved to visit Roskilde.
+She used to live in Roskilde but she always loved to visit Aalborg.
+She used to live in Cologne but she always loved to visit St. Petersburg.
+She used to live in St. Petersburg but she always loved to visit Cologne.
+She used to live in Seville but she always loved to visit Finnmark.
+She used to live in Finnmark but she always loved to visit Seville.
+She used to live in Scania but she always loved to visit Warsaw.
+She used to live in Warsaw but she always loved to visit Scania.
+She used to live in Edinburgh but she always loved to visit Funen.
+She used to live in Funen but she always loved to visit Edinburgh.
+She used to live in Bavaria but she always loved to visit Jutland.
+She used to live in Jutland but she always loved to visit Bavaria.
+She used to live in Stockholm but she always loved to visit Athens.
+She used to live in Athens but she always loved to visit Stockholm.
+She used to live in Milan but she always loved to visit Nuremberg.
+She used to live in Nuremberg but she always loved to visit Milan.
+She used to live in Copenhagen but she always loved to visit Zealand.
+She used to live in Zealand but she always loved to visit Copenhagen.
+She used to live in Venice but she always loved to visit California.
+She used to live in California but she always loved to visit Venice.
+She used to live in Vienna but she always loved to visit Munich.
+She used to live in Munich but she always loved to visit Vienna.
+Have you been to Paris?
+Have you been to Berlin?
+Addi dreams of flying.
+Addi felt bad after the conversation.
+Adda dreams of flying.
+Adda felt bad after the conversation.
+Aggi dreams of flying.
+Aggi felt bad after the conversation.
+Agga dreams of flying.
+Agga felt bad after the conversation.
+Alli dreams of flying.
+Alli felt bad after the conversation.
+Alla dreams of flying.
+Alla felt bad after the conversation.
+Ási dreams of flying.
+Ási felt bad after the conversation.
+Ása dreams of flying.
+Ása felt bad after the conversation.
+Beggi dreams of flying.
+Beggi felt bad after the conversation.
+Begga dreams of flying.
+Begga felt bad after the conversation.
+Berti dreams of flying.
+Berti felt bad after the conversation.
+Berta dreams of flying.
+Berta felt bad after the conversation.
+Binni dreams of flying.
+Binni felt bad after the conversation.
+Binna dreams of flying.
+Binna felt bad after the conversation.
+Bjarmi dreams of flying.
+Bjarmi felt bad after the conversation.
+Bjarma dreams of flying.
+Bjarma felt bad after the conversation.
+Boggi dreams of flying.
+Boggi felt bad after the conversation.
+Bogga dreams of flying.
+Bogga felt bad after the conversation.
+Diddi dreams of flying.
+Diddi felt bad after the conversation.
+Didda dreams of flying.
+Didda felt bad after the conversation.
+Donni dreams of flying.
+Donni felt bad after the conversation.
+Donna dreams of flying.
+Donna felt bad after the conversation.
+Dóri dreams of flying.
+Dóri felt bad after the conversation.
+Dóra dreams of flying.
+Dóra felt bad after the conversation.
+Dúi dreams of flying.
+Dúi felt bad after the conversation.
+Dúa dreams of flying.
+Dúa felt bad after the conversation.
+Ebbi dreams of flying.
+Ebbi felt bad after the conversation.
+Ebba dreams of flying.
+Ebba felt bad after the conversation.
+Eddi dreams of flying.
+Eddi felt bad after the conversation.
+Edda dreams of flying.
+Edda felt bad after the conversation.
+Elli dreams of flying.
+Elli felt bad after the conversation.
+Ella dreams of flying.
+Ella felt bad after the conversation.
+Gói dreams of flying.
+Gói felt bad after the conversation.
+Góa dreams of flying.
+Góa felt bad after the conversation.
+Gunni dreams of flying.
+Gunni felt bad after the conversation.
+Gunna dreams of flying.
+Gunna felt bad after the conversation.
+Gunnsi dreams of flying.
+Gunnsi felt bad after the conversation.
+Gunnsa dreams of flying.
+Gunnsa felt bad after the conversation.
+Gústi dreams of flying.
+Gústi felt bad after the conversation.
+Gústa dreams of flying.
+Gústa felt bad after the conversation.
+Halli dreams of flying.
+Halli felt bad after the conversation.
+Halla dreams of flying.
+Halla felt bad after the conversation.
+Hansi dreams of flying.
+Hansi felt bad after the conversation.
+Hansa dreams of flying.
+Hansa felt bad after the conversation.
+Helgi dreams of flying.
+Helgi felt bad after the conversation.
+Helga dreams of flying.
+Helga felt bad after the conversation.
+Ingi dreams of flying.
+Ingi felt bad after the conversation.
+Inga dreams of flying.
+Inga felt bad after the conversation.
+Jói dreams of flying.
+Jói felt bad after the conversation.
+Jóa dreams of flying.
+Jóa felt bad after the conversation.
+Júlli dreams of flying.
+Júlli felt bad after the conversation.
+Júlla dreams of flying.
+Júlla felt bad after the conversation.
+Krissi dreams of flying.
+Krissi felt bad after the conversation.
+Krissa dreams of flying.
+Krissa felt bad after the conversation.
+Lúlli dreams of flying.
+Lúlli felt bad after the conversation.
+Lúlla dreams of flying.
+Lúlla felt bad after the conversation.
+Maggi dreams of flying.
+Maggi felt bad after the conversation.
+Magga dreams of flying.
+Magga felt bad after the conversation.
+Mundi dreams of flying.
+Mundi felt bad after the conversation.
+Munda dreams of flying.
+Munda felt bad after the conversation.
+Óli dreams of flying.
+Óli felt bad after the conversation.
+Óla dreams of flying.
+Óla felt bad after the conversation.
+Raggi dreams of flying.
+Raggi felt bad after the conversation.
+Ragga dreams of flying.
+Ragga felt bad after the conversation.
+Sibbi dreams of flying.
+Sibbi felt bad after the conversation.
+Sibba dreams of flying.
+Sibba felt bad after the conversation.
+Siggi dreams of flying.
+Siggi felt bad after the conversation.
+Sigga dreams of flying.
+Sigga felt bad after the conversation.
+Sóli dreams of flying.
+Sóli felt bad after the conversation.
+Sóla dreams of flying.
+Sóla felt bad after the conversation.
+Stebbi dreams of flying.
+Stebbi felt bad after the conversation.
+Stebba dreams of flying.
+Stebba felt bad after the conversation.
+Steini dreams of flying.
+Steini felt bad after the conversation.
+Steina dreams of flying.
+Steina felt bad after the conversation.
+Svali dreams of flying.
+Svali felt bad after the conversation.
+Svala dreams of flying.
+Svala felt bad after the conversation.
+Tinni dreams of flying.
+Tinni felt bad after the conversation.
+Tinna dreams of flying.
+Tinna felt bad after the conversation.
+Tobbi dreams of flying.
+Tobbi felt bad after the conversation.
+Tobba dreams of flying.
+Tobba felt bad after the conversation.
+Tóti dreams of flying.
+Tóti felt bad after the conversation.
+Tóta dreams of flying.
+Tóta felt bad after the conversation.
+Uni dreams of flying.
+Uni felt bad after the conversation.
+Una dreams of flying.
+Una felt bad after the conversation.
+Valdi dreams of flying.
+Valdi felt bad after the conversation.
+Valda dreams of flying.
+Valda felt bad after the conversation.
+Viggi dreams of flying.
+Viggi felt bad after the conversation.
+Vigga dreams of flying.
+Vigga felt bad after the conversation.
+Villi dreams of flying.
+Villi felt bad after the conversation.
+Villa dreams of flying.
+Villa felt bad after the conversation.
+Óla misses Tobba.
+Tobba misses Óla.
+Óla cares for Tobba.
+Tobba cares for Óla.
+Dóra misses Binni.
+Binni misses Dóra.
+Dóra cares for Binni.
+Binni cares for Dóra.
+Dúa misses Jói.
+Jói misses Dúa.
+Dúa cares for Jói.
+Jói cares for Dúa.
+Gústa misses Alli.
+Alli misses Gústa.
+Gústa cares for Alli.
+Alli cares for Gústa.
+Stebbi misses Ragga.
+Ragga misses Stebbi.
+Stebbi cares for Ragga.
+Ragga cares for Stebbi.
+Bjarmi misses Binna.
+Binna misses Bjarmi.
+Bjarmi cares for Binna.
+Binna cares for Bjarmi.
+Lúlli misses Steina.
+Steina misses Lúlli.
+Lúlli cares for Steina.
+Steina cares for Lúlli.
+Diddi misses Bogga.
+Bogga misses Diddi.
+Diddi cares for Bogga.
+Bogga cares for Diddi.
+Sibbi misses Mundi.
+Mundi misses Sibbi.
+Sibbi cares for Mundi.
+Mundi cares for Sibbi.
+Boggi misses Valda.
+Valda misses Boggi.
+Boggi cares for Valda.
+Valda cares for Boggi.
+Tobbi misses Beggi.
+Beggi misses Tobbi.
+Tobbi cares for Beggi.
+Beggi cares for Tobbi.
+Sóli misses Steini.
+Steini misses Sóli.
+Sóli cares for Steini.
+Steini cares for Sóli.
+Hansi misses Viggi.
+Viggi misses Hansi.
+Hansi cares for Viggi.
+Viggi cares for Hansi.
+Dóri misses Ebbi.
+Ebbi misses Dóri.
+Dóri cares for Ebbi.
+Ebbi cares for Dóri.
+Helga misses Valdi.
+Valdi misses Helga.
+Helga cares for Valdi.
+Valdi cares for Helga.
+Gói misses Gunni.
+Gunni misses Gói.
+Gói cares for Gunni.
+Gunni cares for Gói.
+Ingi misses Munda.
+Munda misses Ingi.
+Ingi cares for Munda.
+Munda cares for Ingi.
+Ási misses Agga.
+Agga misses Ási.
+Ási cares for Agga.
+Agga cares for Ási.
+Siggi misses Eddi.
+Eddi misses Siggi.
+Siggi cares for Eddi.
+Eddi cares for Siggi.
+Maggi misses Ella.
+Ella misses Maggi.
+Maggi cares for Ella.
+Ella cares for Maggi.
+Sigga misses Svala.
+Svala misses Sigga.
+Sigga cares for Svala.
+Svala cares for Sigga.
+Aggi misses Krissi.
+Krissi misses Aggi.
+Aggi cares for Krissi.
+Krissi cares for Aggi.
+Halli misses Raggi.
+Raggi misses Halli.
+Halli cares for Raggi.
+Raggi cares for Halli.
+Edda misses Berta.
+Berta misses Edda.
+Edda cares for Berta.
+Berta cares for Edda.
+Uni misses Svali.
+Svali misses Uni.
+Uni cares for Svali.
+Svali cares for Uni.
+Júlli misses Gunnsa.
+Gunnsa misses Júlli.
+Júlli cares for Gunnsa.
+Gunnsa cares for Júlli.
+Vigga misses Bjarma.
+Bjarma misses Vigga.
+Vigga cares for Bjarma.
+Bjarma cares for Vigga.
+Sibba misses Ása.
+Ása misses Sibba.
+Sibba cares for Ása.
+Ása cares for Sibba.
+Villa misses Addi.
+Addi misses Villa.
+Villa cares for Addi.
+Addi cares for Villa.
+Didda misses Ebba.
+Ebba misses Didda.
+Didda cares for Ebba.
+Ebba cares for Didda.
+Donna misses Gunnsi.
+Gunnsi misses Donna.
+Donna cares for Gunnsi.
+Gunnsi cares for Donna.
+Stebba misses Krissa.
+Krissa misses Stebba.
+Stebba cares for Krissa.
+Krissa cares for Stebba.
+Gústi misses Sóla.
+Sóla misses Gústi.
+Gústi cares for Sóla.
+Sóla cares for Gústi.
+Tinni misses Halla.
+Halla misses Tinni.
+Tinni cares for Halla.
+Halla cares for Tinni.
+Berti misses Helgi.
+Helgi misses Berti.
+Berti cares for Helgi.
+Helgi cares for Berti.
+Tóti misses Inga.
+Inga misses Tóti.
+Tóti cares for Inga.
+Inga cares for Tóti.
+Magga misses Dúi.
+Dúi misses Magga.
+Magga cares for Dúi.
+Dúi cares for Magga.
+Donni misses Góa.
+Góa misses Donni.
+Donni cares for Góa.
+Góa cares for Donni.
+Adda misses Hansa.
+Hansa misses Adda.
+Adda cares for Hansa.
+Hansa cares for Adda.
+Tinna misses Begga.
+Begga misses Tinna.
+Tinna cares for Begga.
+Begga cares for Tinna.
+Gunna misses Villi.
+Villi misses Gunna.
+Gunna cares for Villi.
+Villi cares for Gunna.
+Óli misses Lúlla.
+Lúlla misses Óli.
+Óli cares for Lúlla.
+Lúlla cares for Óli.
+Alla misses Tóta.
+Tóta misses Alla.
+Alla cares for Tóta.
+Tóta cares for Alla.
+Elli misses Jóa.
+Jóa misses Elli.
+Elli cares for Jóa.
+Jóa cares for Elli.
+Una misses Júlla.
+Júlla misses Una.
+Una cares for Júlla.
+Júlla cares for Una.
+James dreams of flying.
+James felt bad after the conversation.
+Mary dreams of flying.
+Mary felt bad after the conversation.
+Michael dreams of flying.
+Michael felt bad after the conversation.
+Patricia dreams of flying.
+Patricia felt bad after the conversation.
+Robert dreams of flying.
+Robert felt bad after the conversation.
+Jennifer dreams of flying.
+Jennifer felt bad after the conversation.
+John dreams of flying.
+John felt bad after the conversation.
+Linda dreams of flying.
+Linda felt bad after the conversation.
+David dreams of flying.
+David felt bad after the conversation.
+Elizabeth dreams of flying.
+Elizabeth felt bad after the conversation.
+William dreams of flying.
+William felt bad after the conversation.
+Barbara dreams of flying.
+Barbara felt bad after the conversation.
+Richard dreams of flying.
+Richard felt bad after the conversation.
+Susan dreams of flying.
+Susan felt bad after the conversation.
+Joseph dreams of flying.
+Joseph felt bad after the conversation.
+Jessica dreams of flying.
+Jessica felt bad after the conversation.
+Thomas dreams of flying.
+Thomas felt bad after the conversation.
+Karen dreams of flying.
+Karen felt bad after the conversation.
+Christopher dreams of flying.
+Christopher felt bad after the conversation.
+Sarah dreams of flying.
+Sarah felt bad after the conversation.
+Charles dreams of flying.
+Charles felt bad after the conversation.
+Lisa dreams of flying.
+Lisa felt bad after the conversation.
+Daniel dreams of flying.
+Daniel felt bad after the conversation.
+Nancy dreams of flying.
+Nancy felt bad after the conversation.
+Matthew dreams of flying.
+Matthew felt bad after the conversation.
+Sandra dreams of flying.
+Sandra felt bad after the conversation.
+Anthony dreams of flying.
+Anthony felt bad after the conversation.
+Betty dreams of flying.
+Betty felt bad after the conversation.
+Mark dreams of flying.
+Mark felt bad after the conversation.
+Ashley dreams of flying.
+Ashley felt bad after the conversation.
+Donald dreams of flying.
+Donald felt bad after the conversation.
+Emily dreams of flying.
+Emily felt bad after the conversation.
+Steven dreams of flying.
+Steven felt bad after the conversation.
+Kimberly dreams of flying.
+Kimberly felt bad after the conversation.
+Andrew dreams of flying.
+Andrew felt bad after the conversation.
+Margaret dreams of flying.
+Margaret felt bad after the conversation.
+Paul dreams of flying.
+Paul felt bad after the conversation.
+Donna dreams of flying.
+Donna felt bad after the conversation.
+Joshua dreams of flying.
+Joshua felt bad after the conversation.
+Michelle dreams of flying.
+Michelle felt bad after the conversation.
+Kenneth dreams of flying.
+Kenneth felt bad after the conversation.
+Carol dreams of flying.
+Carol felt bad after the conversation.
+Kevin dreams of flying.
+Kevin felt bad after the conversation.
+Amanda dreams of flying.
+Amanda felt bad after the conversation.
+Brian dreams of flying.
+Brian felt bad after the conversation.
+Melissa dreams of flying.
+Melissa felt bad after the conversation.
+Timothy dreams of flying.
+Timothy felt bad after the conversation.
+Deborah dreams of flying.
+Deborah felt bad after the conversation.
+Ronald dreams of flying.
+Ronald felt bad after the conversation.
+Stephanie dreams of flying.
+Stephanie felt bad after the conversation.
+George dreams of flying.
+George felt bad after the conversation.
+Rebecca dreams of flying.
+Rebecca felt bad after the conversation.
+Jason dreams of flying.
+Jason felt bad after the conversation.
+Sharon dreams of flying.
+Sharon felt bad after the conversation.
+Edward dreams of flying.
+Edward felt bad after the conversation.
+Laura dreams of flying.
+Laura felt bad after the conversation.
+Jeffrey dreams of flying.
+Jeffrey felt bad after the conversation.
+Cynthia dreams of flying.
+Cynthia felt bad after the conversation.
+Ryan dreams of flying.
+Ryan felt bad after the conversation.
+Dorothy dreams of flying.
+Dorothy felt bad after the conversation.
+Jacob dreams of flying.
+Jacob felt bad after the conversation.
+Amy dreams of flying.
+Amy felt bad after the conversation.
+Nicholas dreams of flying.
+Nicholas felt bad after the conversation.
+Kathleen dreams of flying.
+Kathleen felt bad after the conversation.
+Gary dreams of flying.
+Gary felt bad after the conversation.
+Angela dreams of flying.
+Angela felt bad after the conversation.
+Eric dreams of flying.
+Eric felt bad after the conversation.
+Shirley dreams of flying.
+Shirley felt bad after the conversation.
+Jonathan dreams of flying.
+Jonathan felt bad after the conversation.
+Emma dreams of flying.
+Emma felt bad after the conversation.
+Stephen dreams of flying.
+Stephen felt bad after the conversation.
+Brenda dreams of flying.
+Brenda felt bad after the conversation.
+Larry dreams of flying.
+Larry felt bad after the conversation.
+Pamela dreams of flying.
+Pamela felt bad after the conversation.
+Justin dreams of flying.
+Justin felt bad after the conversation.
+Nicole dreams of flying.
+Nicole felt bad after the conversation.
+Scott dreams of flying.
+Scott felt bad after the conversation.
+Anna dreams of flying.
+Anna felt bad after the conversation.
+Brandon dreams of flying.
+Brandon felt bad after the conversation.
+Samantha dreams of flying.
+Samantha felt bad after the conversation.
+Benjamin dreams of flying.
+Benjamin felt bad after the conversation.
+Katherine dreams of flying.
+Katherine felt bad after the conversation.
+Samuel dreams of flying.
+Samuel felt bad after the conversation.
+Christine dreams of flying.
+Christine felt bad after the conversation.
+Gregory dreams of flying.
+Gregory felt bad after the conversation.
+Debra dreams of flying.
+Debra felt bad after the conversation.
+Alexander dreams of flying.
+Alexander felt bad after the conversation.
+Rachel dreams of flying.
+Rachel felt bad after the conversation.
+Patrick dreams of flying.
+Patrick felt bad after the conversation.
+Carolyn dreams of flying.
+Carolyn felt bad after the conversation.
+Frank dreams of flying.
+Frank felt bad after the conversation.
+Janet dreams of flying.
+Janet felt bad after the conversation.
+Raymond dreams of flying.
+Raymond felt bad after the conversation.
+Maria dreams of flying.
+Maria felt bad after the conversation.
+Jack dreams of flying.
+Jack felt bad after the conversation.
+Olivia dreams of flying.
+Olivia felt bad after the conversation.
+Dennis dreams of flying.
+Dennis felt bad after the conversation.
+Heather dreams of flying.
+Heather felt bad after the conversation.
+Jerry dreams of flying.
+Jerry felt bad after the conversation.
+Helen dreams of flying.
+Helen felt bad after the conversation.
+Brenda misses George.
+George misses Brenda.
+Brenda cares for George.
+George cares for Brenda.
+Stephanie misses Katherine.
+Katherine misses Stephanie.
+Stephanie cares for Katherine.
+Katherine cares for Stephanie.
+Gary misses Timothy.
+Timothy misses Gary.
+Gary cares for Timothy.
+Timothy cares for Gary.
+Joseph misses Mary.
+Mary misses Joseph.
+Joseph cares for Mary.
+Mary cares for Joseph.
+Olivia misses Emma.
+Emma misses Olivia.
+Olivia cares for Emma.
+Emma cares for Olivia.
+Linda misses Ryan.
+Ryan misses Linda.
+Linda cares for Ryan.
+Ryan cares for Linda.
+Carol misses Jennifer.
+Jennifer misses Carol.
+Carol cares for Jennifer.
+Jennifer cares for Carol.
+David misses Dennis.
+Dennis misses David.
+David cares for Dennis.
+Dennis cares for David.
+Jack misses Helen.
+Helen misses Jack.
+Jack cares for Helen.
+Helen cares for Jack.
+Sarah misses Michael.
+Michael misses Sarah.
+Sarah cares for Michael.
+Michael cares for Sarah.
+Janet misses Sharon.
+Sharon misses Janet.
+Janet cares for Sharon.
+Sharon cares for Janet.
+Barbara misses Brian.
+Brian misses Barbara.
+Barbara cares for Brian.
+Brian cares for Barbara.
+Jason misses Andrew.
+Andrew misses Jason.
+Jason cares for Andrew.
+Andrew cares for Jason.
+Patrick misses Stephen.
+Stephen misses Patrick.
+Patrick cares for Stephen.
+Stephen cares for Patrick.
+Carolyn misses Frank.
+Frank misses Carolyn.
+Carolyn cares for Frank.
+Frank cares for Carolyn.
+Betty misses Kevin.
+Kevin misses Betty.
+Betty cares for Kevin.
+Kevin cares for Betty.
+Charles misses Jonathan.
+Jonathan misses Charles.
+Charles cares for Jonathan.
+Jonathan cares for Charles.
+Jacob misses Robert.
+Robert misses Jacob.
+Jacob cares for Robert.
+Robert cares for Jacob.
+Kenneth misses Brandon.
+Brandon misses Kenneth.
+Kenneth cares for Brandon.
+Brandon cares for Kenneth.
+Samantha misses Dorothy.
+Dorothy misses Samantha.
+Samantha cares for Dorothy.
+Dorothy cares for Samantha.
+Susan misses Rachel.
+Rachel misses Susan.
+Susan cares for Rachel.
+Rachel cares for Susan.
+Christopher misses Samuel.
+Samuel misses Christopher.
+Christopher cares for Samuel.
+Samuel cares for Christopher.
+Heather misses Karen.
+Karen misses Heather.
+Heather cares for Karen.
+Karen cares for Heather.
+Donna misses Patricia.
+Patricia misses Donna.
+Donna cares for Patricia.
+Patricia cares for Donna.
+Emily misses Laura.
+Laura misses Emily.
+Emily cares for Laura.
+Laura cares for Emily.
+Daniel misses Amanda.
+Amanda misses Daniel.
+Daniel cares for Amanda.
+Amanda cares for Daniel.
+Raymond misses Angela.
+Angela misses Raymond.
+Raymond cares for Angela.
+Angela cares for Raymond.
+William misses Matthew.
+Matthew misses William.
+William cares for Matthew.
+Matthew cares for William.
+Nancy misses Nicole.
+Nicole misses Nancy.
+Nancy cares for Nicole.
+Nicole cares for Nancy.
+James misses Eric.
+Eric misses James.
+James cares for Eric.
+Eric cares for James.
+Sandra misses Thomas.
+Thomas misses Sandra.
+Sandra cares for Thomas.
+Thomas cares for Sandra.
+Debra misses Michelle.
+Michelle misses Debra.
+Debra cares for Michelle.
+Michelle cares for Debra.
+Amy misses Elizabeth.
+Elizabeth misses Amy.
+Amy cares for Elizabeth.
+Elizabeth cares for Amy.
+Mark misses John.
+John misses Mark.
+Mark cares for John.
+John cares for Mark.
+Kimberly misses Richard.
+Richard misses Kimberly.
+Kimberly cares for Richard.
+Richard cares for Kimberly.
+Anthony misses Rebecca.
+Rebecca misses Anthony.
+Anthony cares for Rebecca.
+Rebecca cares for Anthony.
+Joshua misses Maria.
+Maria misses Joshua.
+Joshua cares for Maria.
+Maria cares for Joshua.
+Jessica misses Alexander.
+Alexander misses Jessica.
+Jessica cares for Alexander.
+Alexander cares for Jessica.
+Donald misses Jeffrey.
+Jeffrey misses Donald.
+Donald cares for Jeffrey.
+Jeffrey cares for Donald.
+Edward misses Lisa.
+Lisa misses Edward.
+Edward cares for Lisa.
+Lisa cares for Edward.
+Scott misses Ronald.
+Ronald misses Scott.
+Scott cares for Ronald.
+Ronald cares for Scott.
+Anna misses Jerry.
+Jerry misses Anna.
+Anna cares for Jerry.
+Jerry cares for Anna.
+Larry misses Kathleen.
+Kathleen misses Larry.
+Larry cares for Kathleen.
+Kathleen cares for Larry.
+Cynthia misses Ashley.
+Ashley misses Cynthia.
+Cynthia cares for Ashley.
+Ashley cares for Cynthia.
+Melissa misses Shirley.
+Shirley misses Melissa.
+Melissa cares for Shirley.
+Shirley cares for Melissa.
+Nicholas misses Margaret.
+Margaret misses Nicholas.
+Nicholas cares for Margaret.
+Margaret cares for Nicholas.
+Gregory misses Benjamin.
+Benjamin misses Gregory.
+Gregory cares for Benjamin.
+Benjamin cares for Gregory.
+Christine misses Paul.
+Paul misses Christine.
+Christine cares for Paul.
+Paul cares for Christine.
+Pamela misses Steven.
+Steven misses Pamela.
+Pamela cares for Steven.
+Steven cares for Pamela.
+Justin misses Deborah.
+Deborah misses Justin.
+Justin cares for Deborah.
+Deborah cares for Justin.
