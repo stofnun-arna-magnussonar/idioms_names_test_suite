@@ -6,12 +6,32 @@ Intuitively and empirically, idioms and proper names are known to be a significa
 
 ## Idiomatic Expressions
 
-The test suite in `idioms` evaluates the competency of MT systems in translating common English idiomatic expressions, as well as testing whether systems can distinguish between those expressions and the same phrases when used in a literal context. 
+The test suite in `idioms` evaluates the competency of MT systems in translating common English idiomatic expressions, as well as testing whether systems can distinguish between those expressions and the same phrases when used in a literal context. We consider 198 English expressions and a total of 397 ‘idiomatic’ examples and 201 ‘literal’ examples. 
+
+To evaluate the models’ performance, we construct two ‘positive’ sets of Icelandic word forms or multiword expressions for each idiom. One set contains words that we would expect to find in a literal translation of the phrase, the other words or phrases that could be expected to appear in a suitable, non-literal translation of the idiomatic expression. In many cases, we also construct ‘negative’ sets of words that instantly lead to a sentence being marked incorrect, such as the Icelandic words for “weather” or “pink” for idiomatic translations of the phrases “under the weather” and “in the pink”. 
+
+The idioms we used are listed in `idioms/data/idioms.json`, along with original English text examples and the positive and negative sets of words or phrases. The Icelandic translations from the systems submitted to this subtask can be found in `idioms/data/wmt24_translations.json`. Our script `idioms/score_idioms.py` scores these by marking a translation correct if it contains any of the words in the set of‘positive’ words (in any lexical form) and it contains none of the words in the set of ‘negative’ words.
+
+As described in [our paper](https://arxiv.org/abs/2410.03394), we also manually reviewed a subset of the translations. The output of our manual review can be found in `idioms/human_evaluation/human_evaluation.tsv` and the scores according to that review are shown by running `score_manual_evaluation.py`.
 
 ## Proper Names
 
-The second test suite consists of place names that should be translated into their Icelandic exonyms (and correctly inflected) and pairs of Icelandic names that share a surface form between the male and female variants, so that incorrect translations impact meaning as well as readability. 
+The test suite in `names` consists of 52 place names that should be translated into their Icelandic exonyms (and correctly inflected) and 45 pairs of Icelandic names that share a surface form between the male and female variants, so that incorrect translations impact meaning as well as readability. 
+
+The translations of our proper names suite can be scored with the script `names/score_names.py`. The translations have been lemmatized using a lemmatizer for Icelandic and can be found in `names/translations_lemmatized`. For the Icelandic given names, the script compares them with a reference of which Icelandic lemmas should appear in the translation and in which grammatical form, `people_names_gold.txt` See our paper for discussion on the limitations of our method.
 
 # Citation
 
-To appear.
+If these test suites are of some use to you in your work, please cite:
+
+```bibtex
+@misc{ármannsson2024killingfliesstoneattempt,
+title={Killing Two Flies with One Stone: An Attempt to Break LLMs Using English->Icelandic Idioms and Proper Names}, 
+      author={Bjarki Ármannsson and Hinrik Hafsteinsson and Atli Jasonarson and Steinþór Steingrímsson},
+      year={2024},
+      eprint={2410.03394},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2410.03394}, 
+}
+```
