@@ -1,0 +1,459 @@
+Addi dreams of flying.	Addi
+Addi felt bad after the conversation.	Addi
+Adda dreams of flying.	Adda
+Adda felt bad after the conversation.	Adda
+Aggi dreams of flying.	Aggi
+Aggi felt bad after the conversation.	Aggi
+Agga dreams of flying.	Agga
+Agga felt bad after the conversation.	Agga
+Alli dreams of flying.	Alli
+Alli felt bad after the conversation.	Alli
+Alla dreams of flying.	Alla
+Alla felt bad after the conversation.	Alla
+Ási dreams of flying.	Ási
+Ási felt bad after the conversation.	Ási
+Ása dreams of flying.	Ása
+Ása felt bad after the conversation.	Ása
+Beggi dreams of flying.	Beggi
+Beggi felt bad after the conversation.	Beggi
+Begga dreams of flying.	Begga
+Begga felt bad after the conversation.	Begga
+Berti dreams of flying.	Berti
+Berti felt bad after the conversation.	Berti
+Berta dreams of flying.	Berta
+Berta felt bad after the conversation.	Berta
+Binni dreams of flying.	Binni
+Binni felt bad after the conversation.	Binni
+Binna dreams of flying.	Binna
+Binna felt bad after the conversation.	Binna
+Bjarmi dreams of flying.	Bjarmi
+Bjarmi felt bad after the conversation.	Bjarmi
+Bjarma dreams of flying.	Bjarma
+Bjarma felt bad after the conversation.	Bjarma
+Boggi dreams of flying.	Boggi
+Boggi felt bad after the conversation.	Boggi
+Bogga dreams of flying.	Bogga
+Bogga felt bad after the conversation.	Bogga
+Diddi dreams of flying.	Diddi
+Diddi felt bad after the conversation.	Diddi
+Didda dreams of flying.	Didda
+Didda felt bad after the conversation.	Didda
+Donni dreams of flying.	Donni
+Donni felt bad after the conversation.	Donni
+Donna dreams of flying.	Donna
+Donna felt bad after the conversation.	Donna
+Dóri dreams of flying.	Dóri
+Dóri felt bad after the conversation.	Dóri
+Dóra dreams of flying.	Dóra
+Dóra felt bad after the conversation.	Dóra
+Dúi dreams of flying.	Dúi
+Dúi felt bad after the conversation.	Dúi
+Dúa dreams of flying.	Dúa
+Dúa felt bad after the conversation.	Dúa
+Ebbi dreams of flying.	Ebbi
+Ebbi felt bad after the conversation.	Ebbi
+Óla misses Tobba.	Óla, Tobbi
+Tobba misses Óla.	Tobba, Óli
+Óla cares for Tobba.	Óla, Tobba
+Tobba cares for Óla.	Tobba, Óla
+James dreams of flying.	James
+James felt bad after the conversation.	James
+Mary dreams of flying.	Mary
+Mary felt bad after the conversation.	Mary
+Michael dreams of flying.	Michael
+Michael dreams of flying.	Michael
+Michael felt bad after the conversation.	Michael
+Patricia dreams of flying.	Patricia
+Patricia felt bad after the conversation.	Patricia
+Robert dreams of flying.	Robert
+Robert felt bad after the conversation.	Robert
+Jennifer dreams of flying.	Jennifer
+Jennifer felt bad after the conversation.	Jennifer
+John dreams of flying.	John
+John felt bad after the conversation.	John
+Linda dreams of flying.	Linda
+Linda felt bad after the conversation.	Linda
+David dreams of flying.	David
+David felt bad after the conversation.	David
+Elizabeth dreams of flying.	Elizabeth
+Elizabeth felt bad after the conversation.	Elizabeth
+William dreams of flying.	William
+William felt bad after the conversation.	William
+Barbara dreams of flying.	Barbara
+Barbara felt bad after the conversation.	Barbara
+Richard dreams of flying.	Richard
+Richard felt bad after the conversation.	Richard
+Susan dreams of flying.	Susan
+Susan felt bad after the conversation.	Susan
+Joseph dreams of flying.	Joseph
+Joseph felt bad after the conversation.	Joseph
+Jessica dreams of flying.	Jessica
+Jessica felt bad after the conversation.	Jessica
+Thomas dreams of flying.	Thomas
+Thomas felt bad after the conversation.	Thomas
+Karen dreams of flying.	Karen
+Karen felt bad after the conversation.	Karen
+Christopher dreams of flying.	Christopher
+Christopher felt bad after the conversation.	Christopher
+Sarah dreams of flying.	Sarah
+Sarah felt bad after the conversation.	Sarah
+Charles dreams of flying.	Charles
+Charles felt bad after the conversation.	Charles
+Lisa dreams of flying.	Lisa
+Lisa felt bad after the conversation.	Lisa
+Daniel dreams of flying.	Daniel
+Daniel felt bad after the conversation.	Daniel
+Nancy dreams of flying.	Nancy
+Nancy felt bad after the conversation.	Nancy
+Matthew dreams of flying.	Matthew
+Matthew felt bad after the conversation.	Matthew
+Sandra dreams of flying.	Sandra
+Sandra felt bad after the conversation.	Sandra
+Anthony dreams of flying.	Anthony
+Anthony felt bad after the conversation.	Anthony
+Betty dreams of flying.	Betty
+Betty felt bad after the conversation.	Betty
+Mark dreams of flying.	Mark
+Mark felt bad after the conversation.	Mark
+Ashley dreams of flying.	Ashley
+Ashley felt bad after the conversation.	Ashley
+Donald dreams of flying.	Donald
+Donald felt bad after the conversation.	Donald
+Emily dreams of flying.	Emily
+Emily felt bad after the conversation.	Emily
+Steven dreams of flying.	Steven
+Steven felt bad after the conversation.	Steven
+Kimberly dreams of flying.	Kimberly
+Kimberly felt bad after the conversation.	Kimberly
+Andrew dreams of flying.	Andrew
+Andrew felt bad after the conversation.	Andrew
+Margaret dreams of flying.	Margaret
+Margaret felt bad after the conversation.	Margaret
+Paul dreams of flying.	Paul
+Paul felt bad after the conversation.	Paul
+Donna dreams of flying.	Donna
+Donna felt bad after the conversation.	Donna
+Joshua dreams of flying.	Joshua
+Joshua felt bad after the conversation.	Joshua
+Michelle dreams of flying.	Michelle
+Michelle felt bad after the conversation.	Michelle
+Kenneth dreams of flying.	Kenneth
+Kenneth felt bad after the conversation.	Kenneth
+Carol dreams of flying.	Carol
+Carol felt bad after the conversation.	Carol
+Kevin dreams of flying.	Kevin
+Kevin felt bad after the conversation.	Kevin
+Amanda dreams of flying.	Amanda
+Amanda felt bad after the conversation.	Amanda
+Brian dreams of flying.	Brian
+Brian felt bad after the conversation.	Brian
+Melissa dreams of flying.	Melissa
+Melissa felt bad after the conversation.	Melissa
+Timothy dreams of flying.	Timothy
+Timothy felt bad after the conversation.	Timothy
+Deborah dreams of flying.	Deborah
+Deborah felt bad after the conversation.	Deborah
+Ronald dreams of flying.	Ronald
+Ronald felt bad after the conversation.	Ronald
+Stephanie dreams of flying.	Stephanie
+Stephanie felt bad after the conversation.	Stephanie
+George dreams of flying.	George
+George felt bad after the conversation.	George
+Rebecca dreams of flying.	Rebecca
+Rebecca felt bad after the conversation.	Rebecca
+Jason dreams of flying.	Jason
+Jason felt bad after the conversation.	Jason
+Sharon dreams of flying.	Sharon
+Sharon felt bad after the conversation.	Sharon
+Edward dreams of flying.	Edward
+Edward felt bad after the conversation.	Edward
+Laura dreams of flying.	Laura
+Laura felt bad after the conversation.	Laura
+Jeffrey dreams of flying.	Jeffrey
+Jeffrey felt bad after the conversation.	Jeffrey
+Cynthia dreams of flying.	Cynthia
+Cynthia felt bad after the conversation.	Cynthia
+Ryan dreams of flying.	Ryan
+Ryan felt bad after the conversation.	Ryan
+Dorothy dreams of flying.	Dorothy
+Dorothy felt bad after the conversation.	Dorothy
+Jacob dreams of flying.	Jacob
+Jacob felt bad after the conversation.	Jacob
+Amy dreams of flying.	Amy
+Amy felt bad after the conversation.	Amy
+Nicholas dreams of flying.	Nicholas
+Nicholas felt bad after the conversation.	Nicholas
+Kathleen dreams of flying.	Kathleen
+Kathleen felt bad after the conversation.	Kathleen
+Gary dreams of flying.	Gary
+Gary felt bad after the conversation.	Gary
+Angela dreams of flying.	Angela
+Angela felt bad after the conversation.	Angela
+Eric dreams of flying.	Eric
+Eric felt bad after the conversation.	Eric
+Shirley dreams of flying.	Shirley
+Shirley felt bad after the conversation.	Shirley
+Jonathan dreams of flying.	Jonathan
+Jonathan felt bad after the conversation.	Jonathan
+Emma dreams of flying.	Emma
+Emma felt bad after the conversation.	Emma
+Stephen dreams of flying.	Stephen
+Stephen felt bad after the conversation.	Stephen
+Brenda dreams of flying.	Brenda
+Brenda felt bad after the conversation.	Brenda
+Larry dreams of flying.	Larry
+Larry felt bad after the conversation.	Larry
+Pamela dreams of flying.	Pamela
+Pamela felt bad after the conversation.	Pamela
+Justin dreams of flying.	Justin
+Justin felt bad after the conversation.	Justin
+Nicole dreams of flying.	Nicole
+Nicole felt bad after the conversation.	Nicole
+Scott dreams of flying.	Scott
+Scott felt bad after the conversation.	Scott
+Anna dreams of flying.	Anna
+Anna felt bad after the conversation.	Anna
+Brandon dreams of flying.	Brandon
+Brandon felt bad after the conversation.	Brandon
+Samantha dreams of flying.	Samantha
+Samantha felt bad after the conversation.	Samantha
+Benjamin dreams of flying.	Benjamin
+Benjamin felt bad after the conversation.	Benjamin
+Katherine dreams of flying.	Katherine
+Katherine felt bad after the conversation.	Katherine
+Samuel dreams of flying.	Samuel
+Samuel felt bad after the conversation.	Samuel
+Christine dreams of flying.	Christine
+Christine felt bad after the conversation.	Christine
+Gregory dreams of flying.	Gregory
+Gregory felt bad after the conversation.	Gregory
+Debra dreams of flying.	Debra
+Debra felt bad after the conversation.	Debra
+Alexander dreams of flying.	Alexander
+Alexander felt bad after the conversation.	Alexander
+Rachel dreams of flying.	Rachel
+Rachel felt bad after the conversation.	Rachel
+Patrick dreams of flying.	Patrick
+Patrick felt bad after the conversation.	Patrick
+Carolyn dreams of flying.	Carolyn
+Carolyn felt bad after the conversation.	Carolyn
+Frank dreams of flying.	Frank
+Frank felt bad after the conversation.	Frank
+Janet dreams of flying.	Janet
+Janet felt bad after the conversation.	Janet
+Raymond dreams of flying.	Raymond
+Raymond felt bad after the conversation.	Raymond
+Maria dreams of flying.	Maria
+Maria felt bad after the conversation.	Maria
+Jack dreams of flying.	Jack
+Jack felt bad after the conversation.	Jack
+Olivia dreams of flying.	Olivia
+Olivia felt bad after the conversation.	Olivia
+Dennis dreams of flying.	Dennis
+Dennis felt bad after the conversation.	Dennis
+Heather dreams of flying.	Heather
+Heather felt bad after the conversation.	Heather
+Jerry dreams of flying.	Jerry
+Jerry felt bad after the conversation.	Jerry
+Helen dreams of flying.	Helen
+Helen felt bad after the conversation.	Helen
+Brenda misses George.	Brenda, George
+George misses Brenda.	George, Brenda
+Brenda cares for George.	Brenda, George
+George cares for Brenda.	George, Brenda
+Stephanie misses Katherine.	Stephanie, Katherine
+Katherine misses Stephanie.	Katherine, Stephanie
+Stephanie cares for Katherine.	Stephanie, Katherine
+Katherine cares for Stephanie.	Katherine, Stephanie
+Gary misses Timothy.	Gary, Timothy
+Timothy misses Gary.	Timothy, Gary
+Gary cares for Timothy.	Gary, Timothy
+Timothy cares for Gary.	Timothy, Gary
+Joseph misses Mary.	Joseph, Mary
+Mary misses Joseph.	Mary, Joseph
+Joseph cares for Mary.	Joseph, Mary
+Mary cares for Joseph.	Mary, Joseph
+Olivia misses Emma.	Olivia, Emma
+Emma misses Olivia.	Emma, Olivia
+Olivia cares for Emma.	Olivia, Emma
+Emma cares for Olivia.	Emma, Olivia
+Linda misses Ryan.	Linda, Ryan
+Ryan misses Linda.	Ryan, Linda
+Linda cares for Ryan.	Linda, Ryan
+Ryan cares for Linda.	Ryan, Linda
+Carol misses Jennifer.	Carol, Jennifer
+Jennifer misses Carol.	Jennifer, Carol
+Carol cares for Jennifer.	Carol, Jennifer
+Jennifer cares for Carol.	Jennifer, Carol
+David misses Dennis.	David, Dennis
+Dennis misses David.	Dennis, David
+David cares for Dennis.	David, Dennis
+Dennis cares for David.	Dennis, David
+Jack misses Helen.	Jack, Helen
+Helen misses Jack.	Helen, Jack
+Jack cares for Helen.	Jack, Helen
+Helen cares for Jack.	Helen, Jack
+Sarah misses Michael.	Sarah, Michael
+Michael misses Sarah.	Michael, Sarah
+Sarah cares for Michael.	Sarah, Michael
+Michael cares for Sarah.	Michael, Sarah
+Janet misses Sharon.	Janet, Sharon
+Sharon misses Janet.	Sharon, Janet
+Janet cares for Sharon.	Janet, Sharon
+Sharon cares for Janet.	Sharon, Janet
+Barbara misses Brian.	Barbara, Brian
+Brian misses Barbara.	Brian, Barbara
+Barbara cares for Brian.	Barbara, Brian
+Brian cares for Barbara.	Brian, Barbara
+Jason misses Andrew.	Jason, Andrew
+Andrew misses Jason.	Andrew, Jason
+Jason cares for Andrew.	Jason, Andrew
+Andrew cares for Jason.	Andrew, Jason
+Patrick misses Stephen.	Patrick, Stephen
+Stephen misses Patrick.	Stephen, Patrick
+Patrick cares for Stephen.	Patrick, Stephen
+Stephen cares for Patrick.	Stephen, Patrick
+Carolyn misses Frank.	Carolyn, Frank
+Frank misses Carolyn.	Frank, Carolyn
+Carolyn cares for Frank.	Carolyn, Frank
+Frank cares for Carolyn.	Frank, Carolyn
+Betty misses Kevin.	Betty, Kevin
+Kevin misses Betty.	Kevin, Betty
+Betty cares for Kevin.	Betty, Kevin
+Kevin cares for Betty.	Kevin, Betty
+Charles misses Jonathan.	Charles, Jonathan
+Jonathan misses Charles.	Jonathan, Charles
+Charles cares for Jonathan.	Charles, Jonathan
+Jonathan cares for Charles.	Jonathan, Charles
+Jacob misses Robert.	Jacob, Robert
+Robert misses Jacob.	Robert, Jacob
+Jacob cares for Robert.	Jacob, Robert
+Robert cares for Jacob.	Robert, Jacob
+Kenneth misses Brandon.	Kenneth, Brandon
+Brandon misses Kenneth.	Brandon, Kenneth
+Kenneth cares for Brandon.	Kenneth, Brandon
+Brandon cares for Kenneth.	Brandon, Kenneth
+Samantha misses Dorothy.	Samantha, Dorothy
+Dorothy misses Samantha.	Dorothy, Samantha
+Samantha cares for Dorothy.	Samantha, Dorothy
+Dorothy cares for Samantha.	Dorothy, Samantha
+Susan misses Rachel.	Susan, Rachel
+Rachel misses Susan.	Rachel, Susan
+Susan cares for Rachel.	Susan, Rachel
+Rachel cares for Susan.	Rachel, Susan
+Christopher misses Samuel.	Christopher, Samuel
+Samuel misses Christopher.	Samuel, Christopher
+Christopher cares for Samuel.	Christopher, Samuel
+Samuel cares for Christopher.	Samuel, Christopher
+Heather misses Karen.	Heather, Karen
+Karen misses Heather.	Karen, Heather
+Heather cares for Karen.	Heather, Karen
+Karen cares for Heather.	Karen, Heather
+Donna misses Patricia.	Donna, Patricia
+Patricia misses Donna.	Patricia, Donna
+Donna cares for Patricia.	Donna, Patricia
+Patricia cares for Donna.	Patricia, Donna
+Emily misses Laura.	Emily, Laura
+Laura misses Emily.	Laura, Emily
+Emily cares for Laura.	Emily, Laura
+Laura cares for Emily.	Laura, Emily
+Daniel misses Amanda.	Daniel, Amanda
+Amanda misses Daniel.	Amanda, Daniel
+Daniel cares for Amanda.	Daniel, Amanda
+Amanda cares for Daniel.	Amanda, Daniel
+Raymond misses Angela.	Raymond, Angela
+Angela misses Raymond.	Angela, Raymond
+Raymond cares for Angela.	Raymond, Angela
+Angela cares for Raymond.	Angela, Raymond
+William misses Matthew.	William, Matthew
+Matthew misses William.	Matthew, William
+William cares for Matthew.	William, Matthew
+Matthew cares for William.	Matthew, William
+Nancy misses Nicole.	Nancy, Nicole
+Nicole misses Nancy.	Nicole, Nancy
+Nancy cares for Nicole.	Nancy, Nicole
+Nicole cares for Nancy.	Nicole, Nancy
+James misses Eric.	James, Eric
+Eric misses James.	Eric, James
+James cares for Eric.	James, Eric
+Eric cares for James.	Eric, James
+Sandra misses Thomas.	Sandra, Thomas
+Thomas misses Sandra.	Thomas, Sandra
+Sandra cares for Thomas.	Sandra, Thomas
+Thomas cares for Sandra.	Thomas, Sandra
+Debra misses Michelle.	Debra, Michelle
+Michelle misses Debra.	Michelle, Debra
+Debra cares for Michelle.	Debra, Michelle
+Michelle cares for Debra.	Michelle, Debra
+Amy misses Elizabeth.	Amy, Elizabeth
+Elizabeth misses Amy.	Elizabeth, Amy
+Amy cares for Elizabeth.	Amy, Elizabeth
+Elizabeth cares for Amy.	Elizabeth, Amy
+Mark misses John.	Mark, John
+John misses Mark.	John, Mark
+Mark cares for John.	Mark, John
+John cares for Mark.	John, Mark
+Kimberly misses Richard.	Kimberly, Richard
+Richard misses Kimberly.	Richard, Kimberly
+Kimberly cares for Richard.	Kimberly, Richard
+Richard cares for Kimberly.	Richard, Kimberly
+Anthony misses Rebecca.	Anthony, Rebecca
+Rebecca misses Anthony.	Rebecca, Anthony
+Anthony cares for Rebecca.	Anthony, Rebecca
+Rebecca cares for Anthony.	Rebecca, Anthony
+Joshua misses Maria.	Joshua, Maria
+Maria misses Joshua.	Maria, Joshua
+Joshua cares for Maria.	Joshua, Maria
+Maria cares for Joshua.	Maria, Joshua
+Jessica misses Alexander.	Jessica, Alexander
+Alexander misses Jessica.	Alexander, Jessica
+Jessica cares for Alexander.	Jessica, Alexander
+Alexander cares for Jessica.	Alexander, Jessica
+Donald misses Jeffrey.	Donald, Jeffrey
+Jeffrey misses Donald.	Jeffrey, Donald
+Donald cares for Jeffrey.	Donald, Jeffrey
+Jeffrey cares for Donald.	Jeffrey, Donald
+Edward misses Lisa.	Edward, Lisa
+Lisa misses Edward.	Lisa, Edward
+Edward cares for Lisa.	Edward, Lisa
+Lisa cares for Edward.	Lisa, Edward
+Scott misses Ronald.	Scott, Ronald
+Ronald misses Scott.	Ronald, Scott
+Scott cares for Ronald.	Scott, Ronald
+Ronald cares for Scott.	Ronald, Scott
+Anna misses Jerry.	Anna, Jerry
+Jerry misses Anna.	Jerry, Anna
+Anna cares for Jerry.	Anna, Jerry
+Jerry cares for Anna.	Jerry, Anna
+Larry misses Kathleen.	Larry, Kathleen
+Kathleen misses Larry.	Kathleen, Larry
+Larry cares for Kathleen.	Larry, Kathleen
+Kathleen cares for Larry.	Kathleen, Larry
+Cynthia misses Ashley.	Cynthia, Ashley
+Ashley misses Cynthia.	Ashley, Cynthia
+Cynthia cares for Ashley.	Cynthia, Ashley
+Ashley cares for Cynthia.	Ashley, Cynthia
+Melissa misses Shirley.	Melissa, Shirley
+Shirley misses Melissa.	Shirley, Melissa
+Melissa cares for Shirley.	Melissa, Shirley
+Shirley cares for Melissa.	Shirley, Melissa
+Nicholas misses Margaret.	Nicholas, Margaret
+Margaret misses Nicholas.	Margaret, Nicholas
+Nicholas cares for Margaret.	Nicholas, Margaret
+Margaret cares for Nicholas.	Margaret, Nicholas
+Gregory misses Benjamin.	Gregory, Benjamin
+Benjamin misses Gregory.	Benjamin, Gregory
+Gregory cares for Benjamin.	Gregory, Benjamin
+Benjamin cares for Gregory.	Benjamin, Gregory
+Christine misses Paul.	Christine, Paul
+Paul misses Christine.	Paul, Christine
+Christine cares for Paul.	Christine, Paul
+Paul cares for Christine.	Paul, Christine
+Pamela misses Steven.	Pamela, Steven
+Steven misses Pamela.	Steven, Pamela
+Pamela cares for Steven.	Pamela, Steven
+Steven cares for Pamela.	Steven, Pamela
+Justin misses Deborah.	Justin, Deborah
+Deborah misses Justin.	Deborah, Justin
+Justin cares for Deborah.	Justin, Deborah
+Deborah cares for Justin.	Deborah, Justin
