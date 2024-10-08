@@ -3,6 +3,7 @@ import sys
 
 import tokenizer
 from islenska import Bin
+from tabulate import tabulate
 
 evalset_json = open('data/idioms.json')
 evalset_idioms = json.load(evalset_json)
@@ -13,23 +14,14 @@ idioms_translations = json.load(translations_file)
 translations_file.close()
 
 
-skip_file = open('data/skip.txt')
-skip_sentences = skip_file.readlines()
-skip_file.close()
-
-skip_sentence_dict = {}
-for sentence in skip_sentences:
-    skip_sentence_dict[sentence.strip().replace("'",'').replace('"','').replace('\\','')] = True
-
-
-evaluations_out_tsv = 'data/evaluations_out.tsv'
+evaluations_out_tsv = 'data/model_scores.tsv'
 
 b = Bin()
 
 s_names = ['AMI', 'Aya23', 'Claude-3.5', 'CommandR-plus', 'CycleL', 'Dubformer', 'GPT-4', 'IKUN-C', 'IKUN',
            'IOL_Research', 'Llama3-70B', 'ONLINE-A', 'ONLINE-B', 'ONLINE-G', 'TranssionMT', 'TSU-HITs', 'Unbabel-Tower70B']
 
-# þarf að flækja listann, með positive cues og negative cues
+
 def idiom_cues():
     idiomatic_cues = {}
     for idiom in evalset_idioms:
@@ -47,15 +39,14 @@ def idiom_cues():
 
 def found_literal_cue(literal_cues: list[str], translation: str) -> bool:
     b = Bin()
-    translation_tokens = list([token[1].lower() for token in tokenizer.tokenize(translation.replace('.','').replace('(','').replace(')','')) if token[0] == 6])
+    translation_tokens = list([token[1].lower() 
+                               for token in tokenizer.tokenize(translation.replace('.','').replace('(','').replace(')','')) 
+                               if token[0] == 6])
     if len(translation_tokens) > 0:
         for cue in literal_cues:
             try:
-                # þarf að breyta og fletta upp með orðflokki
-                # print(b.lookup(cue))
                 try:
                     lemma_candidates = b.lookup(cue)
-                    # hér að neðan þyrfti þá að taka [1] og allt undir því
                     b_id = lemma_candidates[1][0].bin_id
                     bm = b.lookup_id(b_id)
                     ordmyndir = set([b.bmynd for b in bm])
@@ -77,7 +68,6 @@ def get_wordforms(word: str, form: str) -> list[str]:
     wordforms = []
     if form == 'l':
         lemma_candidates = b.lookup(word)
-        # hér að neðan þyrfti þá að taka [1] og allt undir því
         bin_ids = list(set([lemma_candidates[1][i].bin_id for i in range(len(lemma_candidates[1]))]))
         wordforms = []
         for bin_id in bin_ids:
@@ -99,7 +89,7 @@ def check_tokens(tokenlist, forms_1, forms_2, mydistance):
     return False
 
 
-def evaluate_idiom(translation: str, positive_cues: list[str], negative_cues: list[str]) -> (int, str):
+def evaluate_idiom(translation: str, positive_cues: list[str], negative_cues: list[str]) -> tuple[int, str]:
 
     translation_tokens = list([token[1].lower() for token in tokenizer.tokenize(translation) if token[0] == 6])
     if len(translation_tokens) > 0:
@@ -138,6 +128,7 @@ def evaluate_idiom(translation: str, positive_cues: list[str], negative_cues: li
     return (0, "Rejected: No cues found in translation.")
 
 idiomatic_cues = idiom_cues()
+system_results_dict = {}
 
 with open(evaluations_out_tsv, 'w') as out_file:
     for s_name in s_names:
@@ -153,42 +144,76 @@ with open(evaluations_out_tsv, 'w') as out_file:
         for idiom_entry in idioms_translations:
             curr_id = idiom_entry['id']
             cues = idiomatic_cues[curr_id]
-            #print(curr_id)
-            #print(cues)
             if idiomatic_1 in idiom_entry and len(idiom_entry[idiomatic_1]) > 0:
-                if idiomatic_cues[curr_id]['idiomatic_ex_1'].replace('"','').replace('\\','').replace("'",'').replace('"','').replace('\\','') not in skip_sentence_dict:
-                    eval_value, eval_string = evaluate_idiom(idiom_entry[idiomatic_1], cues['idiomatic_1_positive'], cues['idiomatic_1_negative'])
-                    correct_idiomatic_translations += eval_value
-                    total_idiomatic_translations += 1
-                    out_file.write(str(curr_id) + '\t' + idiomatic_1 + '\tidiomatic\t' + str(eval_value) + '\t' + str(cues['idiomatic_1_positive']).replace('\n', ' ') + '\t' + str(cues['idiomatic_1_negative']).replace('\n', ' ') + '\t' + cues['idiom'] + '\t'  + eval_string  + '\t' + cues['idiomatic_ex_1'] + '\t' + idiom_entry[idiomatic_1] + '\n')
+                eval_value, eval_string = evaluate_idiom(idiom_entry[idiomatic_1], 
+                                                         cues['idiomatic_1_positive'],
+                                                         cues['idiomatic_1_negative'])
+                correct_idiomatic_translations += eval_value
+                total_idiomatic_translations += 1
+                out_file.write(str(curr_id) + '\t' + idiomatic_1 + '\tidiomatic\t' + str(eval_value) + '\t' 
+                               + str(cues['idiomatic_1_positive']).replace('\n', ' ') + '\t' 
+                               + str(cues['idiomatic_1_negative']).replace('\n', ' ') + '\t' 
+                               + cues['idiom'] + '\t'  + eval_string  + '\t' + cues['idiomatic_ex_1'] + '\t' 
+                               + idiom_entry[idiomatic_1] + '\n')
             if idiomatic_2 in idiom_entry and len(idiom_entry[idiomatic_2]) > 0:
-                if idiomatic_cues[curr_id]['idiomatic_ex_2'].replace('"','').replace('\\','').replace("'",'').replace('"','').replace('\\','') not in skip_sentence_dict:
-                    eval_value, eval_string = evaluate_idiom(idiom_entry[idiomatic_2], cues['idiomatic_2_positive'], cues['idiomatic_2_negative'])
-                    correct_idiomatic_translations += eval_value
-                    total_idiomatic_translations += 1
-                    out_file.write(str(curr_id) + '\t' + idiomatic_2 + '\tidiomatic\t' + str(eval_value) + '\t' + str(cues['idiomatic_2_positive']).replace('\n', ' ') + '\t' + str(cues['idiomatic_2_negative']).replace('\n', ' ') + '\t' + cues['idiom'] + '\t'  + eval_string  + '\t' + cues['idiomatic_ex_2'] + '\t' + idiom_entry[idiomatic_2] + '\n')
+                eval_value, eval_string = evaluate_idiom(idiom_entry[idiomatic_2], 
+                                                         cues['idiomatic_2_positive'], 
+                                                         cues['idiomatic_2_negative'])
+                correct_idiomatic_translations += eval_value
+                total_idiomatic_translations += 1
+                out_file.write(str(curr_id) + '\t' + idiomatic_2 + '\tidiomatic\t' + str(eval_value) + '\t' 
+                               + str(cues['idiomatic_2_positive']).replace('\n', ' ') + '\t' 
+                               + str(cues['idiomatic_2_negative']).replace('\n', ' ') + '\t' 
+                               + cues['idiom'] + '\t'  + eval_string  + '\t' + cues['idiomatic_ex_2'] + '\t' 
+                               + idiom_entry[idiomatic_2] + '\n')
             if literal_1 in idiom_entry and len(idiom_entry[literal_1]) > 0:
-                if idiomatic_cues[curr_id]['literal_ex_1'].replace('"','').replace('\\','').replace("'",'').replace('"','').replace('\\','') not in skip_sentence_dict:
-                    eval_value, eval_string = evaluate_idiom(idiom_entry[literal_1], cues['literal_1_positive'], cues['literal_1_negative'])
-                    correct_literal_translations += eval_value
-                    total_literal_translations += 1
-                    out_file.write(str(curr_id) + '\t' + literal_1 + '\tliteral\t' + str(eval_value) + '\t' + str(cues['literal_1_positive']).replace('\n', ' ') + '\t' + str(cues['literal_1_negative']).replace('\n', ' ') + '\t' + cues['idiom'] + '\t'  + eval_string  + '\t' + cues['literal_ex_1'] + '\t' + idiom_entry[literal_1] + '\n')
+                eval_value, eval_string = evaluate_idiom(idiom_entry[literal_1], 
+                                                         cues['literal_1_positive'], 
+                                                         cues['literal_1_negative'])
+                correct_literal_translations += eval_value
+                total_literal_translations += 1
+                out_file.write(str(curr_id) + '\t' + literal_1 + '\tliteral\t' + str(eval_value) + '\t' 
+                               + str(cues['literal_1_positive']).replace('\n', ' ') + '\t' 
+                               + str(cues['literal_1_negative']).replace('\n', ' ') + '\t' 
+                               + cues['idiom'] + '\t'  + eval_string  + '\t' + cues['literal_ex_1'] + '\t' 
+                               + idiom_entry[literal_1] + '\n')
             if literal_2 in idiom_entry and len(idiom_entry[literal_2]) > 0:
-                if idiomatic_cues[curr_id]['literal_ex_1'].replace('"','').replace('\\','').replace("'",'').replace('"','').replace('\\','') not in skip_sentence_dict:
-                    eval_value, eval_string = evaluate_idiom(idiom_entry[literal_2], cues['literal_2_positive'], cues['literal_2_negative'])
-                    correct_literal_translations += eval_value
-                    total_literal_translations += 1
-                    out_file.write(str(curr_id) + '\t' + literal_2 + '\tliteral\t' + str(eval_value) + '\t' + str(cues['literal_2_positive']).replace('\n', ' ') + '\t' + str(cues['literal_2_negative']).replace('\n', ' ') + '\t' + cues['idiom'] + '\t'  + eval_string  + '\t' + cues['literal_ex_2'] + '\t' + idiom_entry[literal_2] + '\n')
+                eval_value, eval_string = evaluate_idiom(idiom_entry[literal_2], 
+                                                         cues['literal_2_positive'], 
+                                                         cues['literal_2_negative'])
+                correct_literal_translations += eval_value
+                total_literal_translations += 1
+                out_file.write(str(curr_id) + '\t' + literal_2 + '\tliteral\t' + str(eval_value) + '\t' 
+                               + str(cues['literal_2_positive']).replace('\n', ' ') + '\t' 
+                               + str(cues['literal_2_negative']).replace('\n', ' ') + '\t' 
+                               + cues['idiom'] + '\t'  + eval_string  + '\t' + cues['literal_ex_2'] + '\t' 
+                               + idiom_entry[literal_2] + '\n')
 
         total_score = correct_idiomatic_translations + correct_literal_translations
         if total_idiomatic_translations == 0:
             total_idiomatic_translations = 1
         if total_literal_translations == 0:
             total_literal_translations = 1
+        total_translations = total_idiomatic_translations + total_literal_translations
+
+        system_results_dict[s_name] = {'Total Score': total_score / total_translations, 
+                                       'Correct Idioms': str(correct_idiomatic_translations) + ' / ' + str(total_idiomatic_translations),
+                                       'Idiom Accuracy': str(correct_idiomatic_translations / total_idiomatic_translations),
+                                       'Correct Literals': str(correct_literal_translations) + ' / '+ str(total_literal_translations),
+                                       'Literal Accuracy': str(correct_literal_translations / total_literal_translations)
+                                       }
 
         print('System name:', s_name)
-        print('Total score:', (correct_idiomatic_translations + correct_literal_translations) / (total_idiomatic_translations + total_literal_translations))
-        print('Correct idiomatics:', str(correct_idiomatic_translations) + ' / '+ str(total_idiomatic_translations), 'Correct idiomatics:', str(correct_idiomatic_translations / total_idiomatic_translations))
-        print('Correct literals:', str(correct_literal_translations) + ' / '+ str(total_literal_translations), 'Correct literals:', str(correct_literal_translations / total_literal_translations))
+        for key, value in system_results_dict[s_name].items():
+            print(key, value)
         print('\n')
 
+
+table = []
+for system in s_names:
+    table.append([system, system_results_dict[system]['Total Score'], 
+                system_results_dict[system]['Correct Idioms'], system_results_dict[system]['Idiom Accuracy'], 
+                system_results_dict[system]['Correct Literals'], system_results_dict[system]['Literal Accuracy']])
+print(tabulate(table, headers=['System', 'Total Score',
+                               'Correct Idioms', 'Idiom Accuracy',
+                               'Correct Literals', 'Literal Accuracy']))
