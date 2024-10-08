@@ -1,4 +1,5 @@
-import os, re, random
+import os, re
+from tabulate import tabulate
 
 city_translations = {
     'Copenhagen': ['Kaupmannahöfn'],
@@ -72,10 +73,10 @@ sent_patterns = [(r"(.*?) is lovely this time of year", 'n'),
                  (r"(.*?) cares for (.*?[^\w]*[\w]*)", ('þ', 'o'))]
 
 people_dict = {}
-with open('people_gold.txt', 'r') as f:
+with open('people_names_gold.txt', 'r') as f:
     for line in f:
-        text, names, inflect = line.strip().split('\t')
-        people_dict[text] = {'names': names.split(','), 'inflect': inflect}
+        text, names = line.strip().split('\t')
+        people_dict[text] = {'names': names.split(',')}
 
 def evaluate_name(source_name, case, lemmatized_translation, source_text):
     points = 0
@@ -83,12 +84,9 @@ def evaluate_name(source_name, case, lemmatized_translation, source_text):
     city_total = 0
     people_points = 0
     people_total = 0
-    #print(len(source_name), source_name, case, lemmatized_translation, source_text.strip())
     for i,name in enumerate(source_name):
         if name in city_translations:
-            #print(len(source_name), source_name, case, lemmatized_translation, source_text.strip())
             city_total += len(source_name)
-            # Hvað á að gera við Nýju Delí og af hverju virka Versalir ekki? :(
             for city_translation in city_translations[name]:
                 for lt in lemmatized_translation:
                     if lt[2].strip() == city_translation:
@@ -121,14 +119,13 @@ with open('source.txt', 'r') as f:
                 for match in match.groups():
                     total_items_pattern += 1
 
-              
-random_line_numbers = random.sample(range(0, 912), 200)
+
 text_out = ''
+system_scores = {}
 
 for file in os.listdir(translation_dir):
     filename = os.fsdecode(file)
     with open(translation_path+filename, 'r') as f:
-        f_4_review = open(filename+'4_review.txt', 'a')
         total_score = 0
         total_items = 0
         total_city_points = 0
@@ -141,7 +138,8 @@ for file in os.listdir(translation_dir):
             if line.startswith('___$TOKENIZED'):
                 pass
             elif line.startswith('___$SENTENCE_BREAK'):
-                line_score, city_points, city_total, people_points, people_total = evaluate_name(line_dict[line_counter][0], line_dict[line_counter][1], line_list, line_dict[line_counter][2])
+                line_score, city_points, city_total, people_points, people_total = evaluate_name(
+                    line_dict[line_counter][0], line_dict[line_counter][1], line_list, line_dict[line_counter][2])
                 total_items = city_total + people_total
                 text_out += str(filename).lstrip('.').split('.')[0] + '\t' + ' '.join([entry[0] for entry in line_list])  + '\t' + str(line_dict[line_counter][0]) + '\t' + str(line_dict[line_counter][1])  + '\t' + str(line_score) + '\t' + '\n'
                 total_score += line_score
@@ -149,19 +147,36 @@ for file in os.listdir(translation_dir):
                 total_city_total += city_total
                 total_people_points += people_points
                 total_people_total += people_total
-                if line_counter in random_line_numbers:
-                    f_4_review.write(' '.join([entry[0] for entry in line_list]) + '\t' + str(line_dict[line_counter][0]) + '\t' + str(line_dict[line_counter][1])  + '\t' + str(line_score) + '\t' + '\n')
                 line_counter += 1
                 line_list = []
                 if line_counter == 912:
-                    f_4_review.close()
                     break
             else: 
                 w, tag, lemma = line.strip().split('\t')
                 line_list.append((w, tag, lemma))
     if total_score == 0:
         total_score += 1
-    print(filename, 'total_score:', (total_city_points + total_people_points)/(total_city_total + total_people_total), 'total_city_score:', total_city_points/total_city_total, 'total_people_score:', total_people_points/total_people_total, 'total_cities:', total_city_total, 'total_people:', total_people_total, total_score, total_items, total_city_points, total_people_points)
+    system_scores[filename] = {'Total Score': (total_city_points + total_people_points)/(total_city_total + total_people_total),
+                              'Total Cities': total_city_total,
+                              'Total City Score': total_city_points/total_city_total,
+                              'Total People': total_people_total,
+                              'Total People Score': total_people_points/total_people_total}
+    print('System name:', filename)
+    for key, value in system_scores[filename].items():
+        print(key, value)
+    print('\n')
 
-with open('text_out_uppfært.txt', 'w') as f:
+table = []
+for system in system_scores.keys():
+    table.append([system, system_scores[system]['Total Score'], 
+                  system_scores[system]['Total Cities'],
+                  system_scores[system]['Total City Score'],
+                  system_scores[system]['Total People'],
+                  system_scores[system]['Total People Score']])
+print(tabulate(table, headers=['System', 'Total Score',
+                               'Total Cities', 'Total City Score',
+                               'Total People', 'Total People Score']))
+
+
+with open('model_scores.txt', 'w') as f:
     f.write(text_out)
