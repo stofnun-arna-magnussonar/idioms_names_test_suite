@@ -25,13 +25,23 @@ The translations of our proper names suite can be scored with the script `names/
 If these test suites are of some use to you in your work, please cite:
 
 ```bibtex
-@misc{ármannsson2024killingfliesstoneattempt,
-title={Killing Two Flies with One Stone: An Attempt to Break LLMs Using English->Icelandic Idioms and Proper Names}, 
-      author={Bjarki Ármannsson and Hinrik Hafsteinsson and Atli Jasonarson and Steinþór Steingrímsson},
-      year={2024},
-      eprint={2410.03394},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2410.03394}, 
+@inproceedings{armannsson-etal-2024-killing,
+    title = "Killing Two Flies with One Stone: An Attempt to Break {LLM}s Using {E}nglish-{I}celandic Idioms and Proper Names",
+    author = "{\'A}rmannsson, Bjarki  and
+      Hafsteinsson, Hinrik  and
+      Jasonarson, Atli  and
+      Steingr{\'i}msson, Stein{\th}{\'o}r",
+    editor = "Haddow, Barry  and
+      Kocmi, Tom  and
+      Koehn, Philipp  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Ninth Conference on Machine Translation",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.wmt-1.31/",
+    doi = "10.18653/v1/2024.wmt-1.31",
+    pages = "451--458",
 }
 ```
